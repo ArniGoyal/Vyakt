@@ -196,9 +196,9 @@ model.train(
 
 | Split | Images |
 |---|---|
-| Train | 1260 |
+| Train | 983 |
 | Valid | 282 |
-| Test | 130 |
+| Test | 282 |
 
 ### Augmentations Used
 
@@ -222,16 +222,6 @@ model.train(
 | PyTorch + MPS | Inference on Apple Silicon Neural Engine |
 | Google Colab + T4 GPU | Model training |
 | Roboflow Universe | Dataset source |
-
----
-
-## Device Performance (estimated)
-
-| Device | Expected FPS |
-|---|---|
-| Mac M1/M2/M3 (MPS) | ~40–50 fps |
-| NVIDIA GPU (CUDA) | ~50–60 fps |
-| CPU only | ~8–15 fps |
 
 ---
 
